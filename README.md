@@ -118,6 +118,6 @@ streamlit run churndictor.py
 ---
 
 ## 🏆 Author
-**Your Name**  
+**Paul Egeonu**  
 _Data Analyst & Data Scientist_  
 [LinkedIn](https://www.linkedin.com/) | [Portfolio](https://yourportfolio.com) | [GitHub](https://github.com/yourusername)
