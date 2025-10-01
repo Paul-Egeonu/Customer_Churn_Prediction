@@ -4,5 +4,120 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-# Customer_Churn_Prediction
+# Customer Churn Prediction 🚀
 📊 Machine Learning project to predict customer churn with EDA, feature engineering, model training, evaluation, and deployment (Python &amp; Streamlit).
+
+
+This project predicts **customer churn** (whether a customer is likely to stop using a service) using machine learning techniques.  
+
+It demonstrates the complete lifecycle of a data science project:
+- Data preprocessing  
+- Exploratory data analysis (EDA)  
+- Model training and optimization  
+- Model evaluation  
+- Deployment for predictions (via Python script and Streamlit app)  
+
+---
+
+## 📂 Project Structure
+
+```
+Churn_Prediction_Project/
+│── customer_churn_data.csv          # Dataset
+│── customer_churn.ipynb             # Jupyter notebook (EDA, training, evaluation)
+│── customer_churn_portfolio.ipynb   # Enhanced portfolio-ready notebook
+│── preprocessing_pipeline.pkl       # Preprocessing pipeline
+│── best_churn_model.joblib          # Trained model
+│── churndictor.py                   # Python script for predictions
+│── README.md                        # Project documentation
+│── requirements.txt                 # Dependencies
+```
+
+---
+
+## 📊 Dataset
+
+- **File:** `customer_churn_data.csv`  
+- **Description:** Contains customer demographic, usage, and subscription details.  
+- **Target Variable:** `Churn` (1 = customer churned, 0 = retained)  
+
+---
+
+## 🔎 Workflow
+
+1. **Data Exploration (EDA)**  
+   - Understanding dataset structure  
+   - Handling missing values and outliers  
+   - Visualizing churn distribution  
+
+2. **Preprocessing**  
+   - Encoding categorical features  
+   - Scaling numerical features  
+   - Train-test split  
+
+3. **Modeling**  
+   - Multiple models tested (Logistic Regression, Random Forest, XGBoost, etc.)  
+   - Hyperparameter tuning  
+   - Best model saved as `best_churn_model.joblib`  
+
+4. **Evaluation**  
+   - Accuracy, Precision, Recall, F1-score  
+   - Confusion Matrix  
+   - ROC-AUC curve  
+
+5. **Deployment**  
+   - `churndictor.py`: Simple script for predictions  
+   - Streamlit app (interactive churn prediction demo)  
+
+---
+
+## 📈 Key Results
+
+- Best model achieved: **[Insert Accuracy/ROC-AUC here]**  
+- Most important features: **[Insert feature names here]**  
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Churn_Prediction_Project.git
+cd Churn_Prediction_Project
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Jupyter Notebook
+```bash
+jupyter notebook customer_churn_portfolio.ipynb
+```
+
+### 4. Run Prediction Script
+```bash
+python churndictor.py
+```
+
+### 5. Run Streamlit App
+```bash
+streamlit run churndictor.py
+```
+
+👉 **[Insert GIF of Streamlit app demo here]**
+
+---
+
+## 📌 Future Improvements
+- Experiment with deep learning models  
+- Add automated ML pipeline  
+- Deploy via Flask/Django REST API  
+
+---
+
+## 🏆 Author
+**Your Name**  
+_Data Analyst & Data Scientist_  
+[LinkedIn](https://www.linkedin.com/) | [Portfolio](https://yourportfolio.com) | [GitHub](https://github.com/yourusername)
