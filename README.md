@@ -74,7 +74,7 @@ Churn_Prediction_Project/
 ## 📈 Key Results
 
 - Best model achieved: **[Insert Accuracy/ROC-AUC here]**  
-- Most important features: **[Insert feature names here]**  
+- Most important features: **[Tenure | Monthly charges | Tech support availability | Contract type]**  
 
 ---
 
