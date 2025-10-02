@@ -1,3 +1,7 @@
+![Cover Image]![1729](https://github.com/user-attachments/assets/d75c2a6f-1ea7-4064-bc47-cb43de9190fb)
+
+
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-GradientBoosting-green)
