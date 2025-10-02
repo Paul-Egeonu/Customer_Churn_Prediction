@@ -106,7 +106,8 @@ python churndictor.py
 streamlit run churndictor.py
 ```
 
-👉 **[Insert GIF of Streamlit app demo here]**
+![churn](https://github.com/user-attachments/assets/26443337-e67e-41f8-be5e-e911cd477938)
+
 
 ---
 
