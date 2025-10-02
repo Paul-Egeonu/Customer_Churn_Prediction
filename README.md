@@ -73,7 +73,7 @@ Churn_Prediction_Project/
 
 ## 📈 Key Results
 
-- Best model achieved: **[Insert Accuracy/ROC-AUC here]**  
+- Best model achieved: **Decision Tree [Accuracy= 1.000 | ROC-AUC= 1.000]**  
 - Most important features: **[Tenure | Monthly charges | Tech support availability | Contract type]**  
 
 ---
